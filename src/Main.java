@@ -7,14 +7,14 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        ListNode nodeThree = new ListNode(1,null);
-        ListNode nodeTwo = new ListNode(3,nodeThree);
-        ListNode nodeOne = new ListNode(5,nodeTwo );
-        // 1 -> 2 -> 3
-
-        ListNode nodeD = new ListNode(1,null);
-        ListNode nodeC = new ListNode(2,nodeD);
-        ListNode nodeB = new ListNode(4,nodeC);
+//        ListNode nodeThree = new ListNode(1,null);
+//        ListNode nodeTwo = new ListNode(3,nodeThree);
+//        ListNode nodeOne = new ListNode(5,nodeTwo );
+//        // 1 -> 2 -> 3
+//
+//        ListNode nodeD = new ListNode(1,null);
+//        ListNode nodeC = new ListNode(2,nodeD);
+//        ListNode nodeB = new ListNode(4,nodeC);
 
 //
 //        ListNode sumNode = new Q2AddTwoNumbers().addTwoNumbers(nodeOne, nodeA);
@@ -26,11 +26,16 @@ public class Main {
 
 //        Q20ValidParentheses calcualte = new Q20ValidParentheses();
 //        Q21MergeTwoSortedList calcualte = new Q21MergeTwoSortedList();
-        ListNode sumNode = new Q21MergeTwoSortedList().mergeTwoLists(nodeOne,nodeB);
-        while(sumNode != null) {
-            System.out.println(sumNode.val);
-            sumNode = sumNode.next;
-        }
+//        ListNode sumNode = new Q21MergeTwoSortedList().mergeTwoLists(nodeOne,nodeB);
+//        while(sumNode != null) {
+//            System.out.println(sumNode.val);
+//            sumNode = sumNode.next;
+//        }
+        int[] price = {7,1,5,3,6,4};
+        Q121BuySell calculate = new Q121BuySell();
+
+        calculate.maxProfit(price);
+        System.out.println(calculate.maxProfit(price));
 
     }
 
