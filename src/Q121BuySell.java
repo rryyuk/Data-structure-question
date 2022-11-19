@@ -15,7 +15,6 @@ public class Q121BuySell {
                 profit = currentConditionProfit;
             }
         }
-
         return profit;
     }
 }
