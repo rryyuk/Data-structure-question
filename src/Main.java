@@ -31,11 +31,14 @@ public class Main {
 //            System.out.println(sumNode.val);
 //            sumNode = sumNode.next;
 //        }
-        int[] price = {7,1,5,3,6,4};
-        Q121BuySell calculate = new Q121BuySell();
+//        int[] price = {7,1,5,3,6,4};
+//        Q121BuySell calculate = new Q121BuySell();
+//        System.out.println(calculate.maxProfit(price));
 
-        calculate.maxProfit(price);
-        System.out.println(calculate.maxProfit(price));
+        int[] frequecny = {2,2,1,1,1,2,2};
+
+        Q169MajorityElement calcualte = new Q169MajorityElement();
+        System.out.println(calcualte.majorityElement(frequecny));
 
     }
 
