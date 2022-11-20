@@ -35,18 +35,21 @@ public class Main {
 //        Q121BuySell calculate = new Q121BuySell();
 //        System.out.println(calculate.maxProfit(price));
 
-        int[] frequecny = {-1,-100,33,99};
+        int[] frequecny = {3,1,-2,-5,2,-4};
 
 //        Q169MajorityElement calcualte = new Q169MajorityElement();
 //        System.out.println(calcualte.majorityElement(frequecny));
 
-        Q189RotateArray calcualte = new Q189RotateArray();
-        int[] num = calcualte.rotate(frequecny, 2);
+//        Q189RotateArray calcualte = new Q189RotateArray();
+//        int[] num = calcualte.rotate(frequecny, 2);
+//        for(int i = 0; i < num.length; i++) {
+//            System.out.print(num[i]);
+//        }
+        Q2149RearrangeArrayElementBySign calcualte = new Q2149RearrangeArrayElementBySign();
+        int[] num = calcualte.rearrangeArray(frequecny);
         for(int i = 0; i < num.length; i++) {
             System.out.print(num[i]);
         }
-//        System.out.println(calcualte.rotate(frequecny, 3));
-
     }
 
 }
