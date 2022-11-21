@@ -45,11 +45,14 @@ public class Main {
 //        for(int i = 0; i < num.length; i++) {
 //            System.out.print(num[i]);
 //        }
-        Q2149RearrangeArrayElementBySign calcualte = new Q2149RearrangeArrayElementBySign();
-        int[] num = calcualte.rearrangeArray(frequecny);
-        for(int i = 0; i < num.length; i++) {
-            System.out.print(num[i]);
-        }
+//        Q2149RearrangeArrayElementBySign calcualte = new Q2149RearrangeArrayElementBySign();
+//        int[] num = calcualte.rearrangeArray(frequecny);
+//        for(int i = 0; i < num.length; i++) {
+//            System.out.print(num[i]);
+//        }
+
+        Q1903LargestOddNumberString calculate = new Q1903LargestOddNumberString();
+        System.out.println(calculate.largestOddNumber("123456"));
     }
 
 }
