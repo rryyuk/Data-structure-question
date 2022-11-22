@@ -51,8 +51,10 @@ public class Main {
 //            System.out.print(num[i]);
 //        }
 
-        Q1903LargestOddNumberString calculate = new Q1903LargestOddNumberString();
-        System.out.println(calculate.largestOddNumber("123456"));
+//        Q1903LargestOddNumberString calculate = new Q1903LargestOddNumberString();
+//        System.out.println(calculate.largestOddNumber("123456"));
+        Q242ValidAnagram calculate = new Q242ValidAnagram();
+        System.out.println(calculate.isAnagram("acac", "accc"));
     }
 
 }
