@@ -35,7 +35,7 @@ public class Main {
 //        Q121BuySell calculate = new Q121BuySell();
 //        System.out.println(calculate.maxProfit(price));
 
-        int[] frequecny = {4,2,4,0,0,3,0,5,1,0};
+        int[] frequecny = {1,1,0,0,0,1,1,1,1,1,1};
 
 //        Q169MajorityElement calcualte = new Q169MajorityElement();
 //        System.out.println(calcualte.majorityElement(frequecny));
@@ -57,8 +57,10 @@ public class Main {
 //        Q242ValidAnagram calculate = new Q242ValidAnagram();
 //        System.out.println(calculate.isAnagram("acac", "accc"));
 
-        Q283MoveZeroes calculate = new Q283MoveZeroes();
-        calculate.moveZeroes(frequecny);
+//        Q283MoveZeroes calculate = new Q283MoveZeroes();
+//        calculate.moveZeroes(frequecny);
+        q485MaxConsecutiveOnes calculate = new q485MaxConsecutiveOnes();
+        System.out.println(calculate.findMaxConsecutiveOnes(frequecny));
     }
 
 }
