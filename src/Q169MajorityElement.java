@@ -28,6 +28,5 @@ public class Q169MajorityElement {
         } else {
             return -1;
         }
-
     }
 }

@@ -8,5 +8,6 @@ public class Q876MiddleoftheLinkedList {
             fast = fast.next.next;
         }
         return slow;
+
     }
 }

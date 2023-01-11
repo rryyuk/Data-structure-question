@@ -10,5 +10,6 @@ public class Q206ReverseLinkedList {
             head = next;
         }
         return newHead;
+        
     }
 }
