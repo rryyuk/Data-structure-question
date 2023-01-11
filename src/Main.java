@@ -1,4 +1,5 @@
 import q2addtwonumbers.ListNode;
+import q2addtwonumbers.Q234PalindromeLinkedList;
 import q2addtwonumbers.Q2AddTwoNumbers;
 
 import java.util.HashMap;
@@ -7,11 +8,18 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-//        ListNode nodeThree = new ListNode(1,null);
-//        ListNode nodeTwo = new ListNode(3,nodeThree);
-//        ListNode nodeOne = new ListNode(5,nodeTwo );
-//        // 1 -> 2 -> 3
-//
+        ListNode g = new ListNode(5,null );
+        ListNode f = new ListNode(1,null );
+        ListNode e = new ListNode(1,null);
+        ListNode d = new ListNode(1,null);
+        ListNode c = new ListNode(2,d);
+        ListNode b = new ListNode(2,c);
+        ListNode a = new ListNode(1,b );
+
+        // 1 -> 2 -> 3
+        boolean sumNode = new Q234PalindromeLinkedList().isPalindrome(a);
+        System.out.println(sumNode);
+
 //        ListNode nodeD = new ListNode(1,null);
 //        ListNode nodeC = new ListNode(2,nodeD);
 //        ListNode nodeB = new ListNode(4,nodeC);
@@ -59,8 +67,8 @@ public class Main {
 
 //        Q283MoveZeroes calculate = new Q283MoveZeroes();
 //        calculate.moveZeroes(frequecny);
-        q485MaxConsecutiveOnes calculate = new q485MaxConsecutiveOnes();
-        System.out.println(calculate.findMaxConsecutiveOnes(frequecny));
+//        q485MaxConsecutiveOnes calculate = new q485MaxConsecutiveOnes();
+//        System.out.println(calculate.findMaxConsecutiveOnes(frequecny));
     }
 
 }

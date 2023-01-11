@@ -2,7 +2,6 @@ import java.util.Stack;
 
 public class Q20ValidParentheses {
     public boolean isValid(String s) {
-
         Stack<Character> parentheses = new Stack<Character>();
 
         for (int i = 0; i < s.length(); i++) {
@@ -20,9 +19,7 @@ public class Q20ValidParentheses {
                 }
                 parentheses.pop();
             }
-
         }
-
         if (parentheses.isEmpty()){
             return true;
         }   else {

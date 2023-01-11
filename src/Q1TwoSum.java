@@ -1,5 +1,6 @@
 import java.util.HashMap;
 public class Q1TwoSum {
+
     public int[] twoSum(int[] nums, int target) {
         int[] targetPositionArray = new int[2];
         HashMap<Integer, Integer> nextNeededElement = new HashMap<Integer, Integer>();
@@ -7,7 +8,6 @@ public class Q1TwoSum {
         for(int i = 0; i < nums.length; i++) {
             nextNeededElement.put(nums[i], i);
         }
-
 
         for(int i = 0; i< nums.length;i++) {
 

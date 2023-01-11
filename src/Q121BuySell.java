@@ -8,7 +8,6 @@ public class Q121BuySell {
             if(prices[i] < buyingPrice) {
                 buyingPrice = prices[i];
             }
-
             currentConditionProfit = prices[i] - buyingPrice;
 
             if(currentConditionProfit > profit) {

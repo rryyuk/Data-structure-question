@@ -20,15 +20,12 @@ public class Q21MergeTwoSortedList {
             }
             head = head.next;
         }
-
         if (list1CurrentNode == null) {
             head.next = list2CurrentNode;
         }
-
         if (list2CurrentNode == null) {
             head.next = list1CurrentNode;
         }
-
         return dummyHead.next;
     }
 }
